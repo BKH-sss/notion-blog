@@ -7,7 +7,7 @@ const CONFIG = {
     bio: "간단한 소개를 여기에 적어주세요.",
     email: "",
     linkedin: "",
-    github: "",
+    github: "BKH-sss",
     instagram: "",
   },
   projects: [
