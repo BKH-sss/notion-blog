@@ -3,8 +3,8 @@ const CONFIG = {
   profile: {
     name: "skadi",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "",
-    bio: "간단한 소개를 여기에 적어주세요.",
+    role: "Full-Stack Developer & AI Researcher",
+    bio: "기술과 개발, 인공지능에 대한 탐구와 일상을 기록하는 공간입니다.",
     email: "",
     linkedin: "",
     github: "BKH-sss",
@@ -13,13 +13,21 @@ const CONFIG = {
   projects: [
     {
       name: `백경환의 T4`,
-      href: "",
+      href: "https://github.com/BKH-sss/notion-blog",
+    },
+    {
+      name: `Portal Hub`,
+      href: "https://bkh-sss.github.io/portal-hub/",
+    },
+    {
+      name: `Skadi Bot`,
+      href: "https://github.com/BKH-sss/skadi-discord-bot",
     },
   ],
   // blog setting (required)
   blog: {
     title: "백경환의 T4",
-    description: "백경환의 T4 블로그에 오신 것을 환영합니다!",
+    description: "기술과 인공지능, 개발 여정을 기록하는 T4 테크 블로그입니다.",
     scheme: "system", // 'light' | 'dark' | 'system'
   },
 
@@ -56,7 +64,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "BKH-sss/notion-blog",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
